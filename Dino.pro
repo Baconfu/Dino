@@ -15,6 +15,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         avatar.cpp \
+        engine.cpp \
         main.cpp \
         paintavatar.cpp
 
@@ -33,4 +34,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     avatar.h \
+    engine.h \
     paintavatar.h
