@@ -4,6 +4,3 @@ scene::scene()
 {
 
 }
-void iterate(){
-
-}

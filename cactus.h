@@ -2,10 +2,13 @@
 #define CACTUS_H
 
 
-class cactus
+class Cactus
 {
 public:
-    cactus();
-};
+    Cactus();
+
+private:
+    int m_location;
+}
 
 #endif // CACTUS_H
