@@ -19,8 +19,10 @@ SOURCES += \
         main.cpp \
         paintavatar.cpp \
     scene.cpp \
-    cactusmover.cpp
 
+    cactusmover.cpp \
+
+    dinojump.cpp
 
 RESOURCES += qml.qrc
 
@@ -40,5 +42,8 @@ HEADERS += \
     engine.h \
     paintavatar.h \
     scene.h \
-    cactusmover.h
+    cactusmover.h \
+
+    dinojump.h
+
 
