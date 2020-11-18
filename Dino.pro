@@ -14,16 +14,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-<<<<<<< HEAD
         avatar.cpp \
         engine.cpp \
         main.cpp \
-        paintavatar.cpp
-=======
-        main.cpp \
+        paintavatar.cpp \
     scene.cpp \
-    cactusmover.cpp \
->>>>>>> 81a5cc622da3e3697a0c41f98b0e4856d7c5c3af
+    cactusmover.cpp
+
 
 RESOURCES += qml.qrc
 
@@ -39,12 +36,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-<<<<<<< HEAD
     avatar.h \
     engine.h \
-    paintavatar.h
-=======
+    paintavatar.h \
     scene.h \
-    cactusmover.h \
+    cactusmover.h
 
->>>>>>> 81a5cc622da3e3697a0c41f98b0e4856d7c5c3af
