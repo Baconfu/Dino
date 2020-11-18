@@ -20,7 +20,7 @@ void PaintAvatar::paint(QPainter *painter)
     QImage img(m_url);
 
 
-    painter->drawImage()
+
 }
 
 
