@@ -11,6 +11,7 @@ public:
     PaintAvatar(QQuickItem * parent = nullptr);
 
     ~PaintAvatar();
+    
 
     void paint(QPainter *painter);
 
