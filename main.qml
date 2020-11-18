@@ -7,25 +7,38 @@ ApplicationWindow {
     width: 640
     height: 480
 
+    signal startGame()
+    signal quit()
 
     title: qsTr("Dino game")
 
-    Text {
-        text: "Test text"
-        x: 100
-        y: 100
-        color: "red"
+    onClosing: {
+        quit()
     }
-    Rectangle {
-        color: "grey"
-        x: 100
-        y: 200
-        width: 100
-        height: 100
+
+    Item {
+        anchors.fill: parent
+        id: titleScreen
+
         Text {
-            text: "this is a rectangle"
-            x: 50
-            y:50
+            width: 100
+            height: 40
+            x: parent.width/2 - width/2
+            y: parent.height/2 - height/2
+            font.pointSize: 36
+            text: "Dino"
+        }
+        Button {
+
+            width: 100
+
+            x: parent.width/2 - width/2
+            y: parent.height/2 - height/2 + 60
+            text: "start game"
+            onClicked: {
+                startGame()
+                titleScreen.visible = false
+            }
         }
     }
 
