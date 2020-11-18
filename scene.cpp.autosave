@@ -1,0 +1,12 @@
+#include "scene.h"
+
+scene::scene()
+{
+
+}
+void scene::iterate(){
+
+    for(int i=0; i<cacti.length(); i++){
+        cacti[i]->
+    }
+}
