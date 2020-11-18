@@ -18,15 +18,11 @@ ApplicationWindow {
     }
     Rectangle {
         color: "grey"
-        x: 100
-        y: 200
-        width: 100
-        height: 100
-        Text {
-            text: "this is a rectangle"
-            x: 50
-            y:50
-        }
+        x: 0
+        y: 360
+        width: 640
+        height: 2
+
     }
 
 
