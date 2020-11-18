@@ -15,8 +15,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-    cactus.cpp \
-    scene.cpp
+    scene.cpp \
+    cactusmover.cpp \
 
 RESOURCES += qml.qrc
 
@@ -32,5 +32,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    cactus.h \
-    scene.h
+    scene.h \
+    cactusmover.h \
+
