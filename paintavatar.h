@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QQuickPaintedItem>
+#include <QQuickItem>
 
 class PaintAvatar: public QQuickPaintedItem
 {
