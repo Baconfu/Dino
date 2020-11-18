@@ -22,8 +22,6 @@ void PaintAvatar::paint(QPainter *painter)
 
     painter->drawImage(frame,img);
 
-
-
 }
 
 
