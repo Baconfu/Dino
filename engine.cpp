@@ -6,5 +6,13 @@ Engine::Engine(QObject *parent):
     timer = new QTimer;
     timer->setInterval(18);
 
-    connect()
+    connect(timer,SIGNAL(timeout()),this,SLOT(iterate()));
+
+    timer->start();
+}
+
+
+void Engine::iterate()
+{
+
 }

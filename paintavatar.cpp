@@ -2,6 +2,7 @@
 #include <QPixmap>
 #include <QImage>
 #include <QPainter>
+#include <QRect>
 
 PaintAvatar::PaintAvatar(QQuickItem * parent):
     QQuickPaintedItem(parent)
@@ -18,7 +19,8 @@ void PaintAvatar::paint(QPainter *painter)
 {
     QImage img(m_url);
 
-    painter->drawI
+
+    painter->drawImage()
 }
 
 
