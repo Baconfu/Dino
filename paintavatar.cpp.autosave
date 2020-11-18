@@ -18,9 +18,9 @@ PaintAvatar::~PaintAvatar()
 void PaintAvatar::paint(QPainter *painter)
 {
     QImage img(m_url);
-    
+    QRect frame();
 
-    painter->drawImage()
+    painter->drawImage(img)
 }
 
 
