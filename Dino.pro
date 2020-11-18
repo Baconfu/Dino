@@ -17,6 +17,7 @@ SOURCES += \
         main.cpp \
     scene.cpp \
     cactusmover.cpp \
+    dinojump.cpp
 
 RESOURCES += qml.qrc
 
@@ -34,4 +35,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     scene.h \
     cactusmover.h \
+    dinojump.h
 
