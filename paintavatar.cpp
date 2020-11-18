@@ -21,6 +21,9 @@ void PaintAvatar::paint(QPainter *painter)
     QRect frame;
 
     painter->drawImage(frame,img);
+
+
+
 }
 
 

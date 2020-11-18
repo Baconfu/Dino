@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QQuickItem>
+#include <qtimer.h>
 
 
 class Engine: public QObject
@@ -12,7 +13,12 @@ public:
     Engine(QObject * parent = nullptr);
 
 
+
 private:
+    QTimer * timer;
+
+public slots:
+    void iterate();
 
 
 };

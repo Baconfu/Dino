@@ -13,6 +13,7 @@ public:
     ~PaintAvatar();
     
 
+
     void paint(QPainter *painter);
 
 private:
